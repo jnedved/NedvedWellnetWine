@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="NedvedWellnetWine:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>NedvedWellnetWine</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="NedvedWellnetWine-1.war">
+      <element id="artifact" artifact-name="NedvedWellnetWine:war exploded" />
+    </root>
+  </artifact>
+</component>
